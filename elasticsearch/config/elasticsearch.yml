@@ -8,5 +8,4 @@ xpack.license.self_generated.type: basic
 xpack.monitoring.collection.enabled: false
 
 discovery.type: single-node
-discovery.zen.ping.multicast.enabled: false
-discovery.zen.minimum_master_nodes: 1
+
