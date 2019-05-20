@@ -1,5 +1,4 @@
-
-ENV ELK_VERSION 7.1.0
+ARG ELK_VERSION=7.1.0
 
 # docker pull docker.elastic.co/kibana/kibana:7.1.0
 
