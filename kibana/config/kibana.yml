@@ -5,9 +5,9 @@
 #server.name: kibana
 #server.host: "0"
 
-elasticsearch.url: http://elasticsearch:9200
+#elasticsearch.url: http://elasticsearch:9200
 
-#server.name: kibana
+server.name: kibana
 server.host: "0.0.0.0"
 xpack.monitoring.ui.container.elasticsearch.enabled: false
 
