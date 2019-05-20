@@ -2,7 +2,7 @@ ARG ELK_VERSION=7.1.0
 
 # docker pull docker.elastic.co/elasticsearch/elasticsearch:7.1.0
 
-FROM docker.elastic.co/elasticsearch/elasticsearch:${ELK_VERSION}
+FROM docker.elastic.co/elasticsearch/elasticsearch:7.1.0
 
 WORKDIR /usr/share/elasticsearch
 
