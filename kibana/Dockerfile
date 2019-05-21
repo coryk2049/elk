@@ -7,7 +7,7 @@ EXPOSE 5601
 
 USER root
 
-RUN yum install telnet -y 
+RUN yum install telnet curl wget -y 
 
 USER kibana
 

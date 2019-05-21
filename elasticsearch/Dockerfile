@@ -8,7 +8,7 @@ ADD config/ /usr/share/elasticsearch/config/
 
 USER root
 RUN chown elasticsearch:elasticsearch config/elasticsearch.yml && \
-    yum install telnet -y 
+    yum install telnet curl wget -y 
 
 EXPOSE 9200 9300
 
