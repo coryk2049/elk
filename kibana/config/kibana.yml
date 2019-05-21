@@ -5,11 +5,14 @@
 #server.name: kibana
 #server.host: "0"
 
-elasticsearch.url: http://${ELASTICSEARCH_URL}:9200
+elasticsearch.hosts: [ "http://${ELASTICSEARCH_URL}:9200" ]
 
 server.name: kibana
-server.host: "0.0.0.0"
+server.host: "0"
 xpack.monitoring.ui.container.elasticsearch.enabled: false
 
 logging.dest: stdout
 #logging.dest: /opt/kalogs/kibana.log
+
+#elasticsearch.username: elastic
+#elasticsearch.password: changeme

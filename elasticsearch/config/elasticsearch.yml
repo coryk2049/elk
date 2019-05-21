@@ -1,11 +1,14 @@
 node.master: true
 node.data: true
-#cluster.name: elastic-cluster
 bootstrap.memory_lock: true
+
+cluster.name: elasticsearch-cluster
 network.host: 0.0.0.0
+discovery.type: single-node
+
 xpack.security.enabled: false
 xpack.license.self_generated.type: basic
 xpack.monitoring.collection.enabled: false
 
-discovery.type: single-node
+
 
