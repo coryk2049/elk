@@ -10,5 +10,6 @@ xpack.security.enabled: false
 xpack.license.self_generated.type: basic
 xpack.monitoring.collection.enabled: false
 
-
-
+#path.data: /usr/share/elasticsearch/data
+#path.logs: /var/log/elasticsearch
+path.repo: ["/esbackup"]
